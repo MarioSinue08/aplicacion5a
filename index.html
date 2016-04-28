@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dia de la Tierra</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<link rel="stylesheet" href="css/tema3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/cambio1a.png','imagenes/cambio3a.png','imagenes/arbol1a.png','imagenes/tierra13.png')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header"  data-back-btn-theme="a">
+   <h1>Dia de la Tierra</h1>
+  </div>
+  <div data-role="main" class="ui-content"> 
+    <div data-role="collapsible" data-content-theme="false">
+    <h3>¿Qué es?</h3><center>
+        <p>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de lasuperpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos</p>
+        <br>
+      <div>
+       <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('v16','','imagenes/tierra2.png',1)"><img src="imagenes/tierra1.png" width="50%" height="40%" id="v16" /></a></p>
+      </div></center>
+   </div>
+    <div data-role="collapsible" data-content-theme="false">
+    <h3>Importancia</h3>
+      <div id="izquierda"><center>
+      <img src="imagenes/mundo1.png" width="40%" height="35%">
+        <p>Gaylord Nelson escogió la fecha de tal manera que se maximizara la participación en las universidades, ya que lo consideraba un encuentro entre maestros y alumnos. Determinó que la semana del 19 al 25 de abril era la mejor apuesta, ya que esta no coincidía con los exámenes o las vacaciones de primavera.8 Más aún, esta fecha no tenía ningún conflicto con celebraciones religiosas como la Pascua o el Pésaj, y era demasiado tarde en primavera para tener un clima decente. Más estudiantes preferirían estar en clase y habría menos competencia con otros eventos de media semana –así que eligió el miércoles 22 de abril. El día también coincidió con el aniversario del natalicio de John Muir, notable conservacionista.</p>
+        <p>Sin el conocimiento de Nelson,9 el 22 de abril de 1970 fue, por coincidencia, el centésimo aniversario del natalicio de Lenin, cuando se trasladó al calendario gregoriano, el cual fue adoptado por los rusos hasta 1918. La revista Time reportó que muchos no pensaron que la fecha fuera una coincidencia, sino una pista de que el evento fue un “engaño comunista”, y citaron a un miembro de Daughters of the American Revolution, diciendo: “elementos subversivos planean hacer que los niños americanos vivan en un ambiente que sea bueno para ellos”.10 John Edgar Hoover, director del Buró Federal de Investigaciones, pudo haber creado la intriga de la conexión con Lenin, ya que se presumía que el FBI llevaba a cabo tareas de vigilancia en las manifestaciones de 1970.11 La idea de que la fecha fuera escogida para celebrar el centenario de Lenin, aún persiste en algunos cuarteles.</p>
+         </center></div>
+        <br>
+      </div>
+   </div>
+  <div data-role="main" class="ui-content">
+   <div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+       <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Tema 2016</h2>
+        <P>Los árboles para la Tierra</P>
+       </a>
+      </li> 
+      <li class="ui-first-child ui-last-child">
+       <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Impacto en el ambiente</h2>
+       </a>
+      </li> 
+      <li class="ui-first-child ui-last-child">
+       <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Cambios por hacer</h2>
+       </a>
+      </li> 
+      <li class="ui-first-child ui-last-child">
+       <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Reflexión</h2>
+       </a>
+      </li> 
+     </ul> 
+    </div>
+   </div>
+   <div data-role="main" class="ui-content"> 
+    <div data-role="collapsible" data-content-theme="false">
+     <h3>Galeria</h3>
+     <iframe src="visor/indexwow.html" style="width:790px;height:190px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+    </div>
+    <div class="boton">
+      <a href="http://www.sedema.df.gob.mx/sedema/">SEDEMA</a>
+     </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <h4>Día de la Tierra</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+    <h4>Mario Sinue Prudente Carrera</h4>
+  </div>
+ </div>
+     
+<div data-role="page" id="page2" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Impacto en el ambiente</h1>
+    </div>
+    <div data-role="main" class="ui-content"><center>
+    <div><center>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/tierra8.png',1)"><img src="imagenes/tierra6.png" alt="lol" width="60%" height="40%" id="Image13"></a> 
+          </center></div>
+        <div id="izquierda">
+<p>El nivel, la intensidad y la calidad del consumo inciden negativamente sobre el medio ambiente, ya que presionan la sobreexplotación de los recursos, agotan las materias primas y generan una cantidad cada vez mayor de residuos sólidos, cuyo tratamiento se dificulta por la utilización de elementos de tardía descomposición, degradando el suelo y las fuentes subterráneas de agua por los lixiviados, así como a la atmósfera por los malos olores que produce la acumulación de gases, las quemas y las descargas de CO2 provenientes de las fuentes móviles y fijas.</p>
+        <p>El consumo se ve presionado inicialmente por las necesidades de supervivencia de la población. Por lo tanto, el crecimiento poblacional es fuente contaminadora y depredadora, pues ante más habitantes se consumen más recursos y se eliminan más residuos. El hecho de que la población mundial se haya triplicado en los últimos 80 años, implicó cambios sustanciales en los sistemas productivos, teniéndose que introducir la biotecnología y la manipulación genética para ofrecer respuestas en términos de tiempo y cantidad de alimentos al creciente número de personas. Sin embargo, esos indudables avances científicos crean ambientes naturales dañinos, que le están restando capacidad regenerativa a la tierra, empobreciendo los suelos y acabando con gran parte de la diversidad alimenticia.</p>
+        <p>La gran paradoja surge del hecho que a pesar de los excepcionales avances en producción de alimentos, cerca de 1.000 millones de personas que viven en la indigencia y que habitan básicamente los países más pobres no tienen acceso a la comida, lo que deja al descubierto un problema aterrador: hay alimentos pero no una racional distribución, lo cual se debe analizar como un fenómeno cargado de implicaciones políticas y económicas. Las propias organizaciones mundiales relacionadas con los temas alimenticios, aceptan que cerca del 17 por ciento de la comida se pierde por mala manipulación y por deformaciones en el mercado, cantidad suficiente para evitar que hubiese hambre en el planeta.</p>
+        </div>
+        <div><center>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/cambio3a.png',1)"><img src="imagenes/cambio3.png" alt="lol" width="60%" height="40%" id="Image14"></a> 
+          </center></div>
+        <div id="derecha">
+                <p>El mayor nivel de consumo se concentra en el 25 por ciento de la población mundial, que mayoritariamente vive en las naciones más ricas. La capacidad de compra de estas sociedades son las que han motivado la individualización, la diferenciación y la exclusión. Las teorías relacionadas con las tendencias consumistas de las elites han impulsado no sólo el surgimiento de exclusivas agrupaciones sociales sino avances tecnológicos sin precedentes en alimentos, empaques, vestidos, electrodomésticos, sistemas satelitales, muebles, materiales de construcción, etc., casi todos muy agresivos y desafiantes con la capacidad de absorción de la naturaleza.</p>
+        <p>La realidad también muestra que el 58 por ciento de personas tienen un nivel medio de consumo de artículos que le brindan satisfacciones a sus necesidades básicas, sin acercarse a las ostentosas cifras de los más ricos. Mayoritariamente este grupo vive en las naciones subdesarrolladas, cuyos principales activos tienen que ver con la producción y provisión de materias primas, especialmente biomasicas. La mayoría de sus residuos son dañinos para el entorno natural.</p>
+        <p>El desaforado aumento de consumidores (ostentosos o no) genera impactantes cifras de residuos, cuya gestión aun se enfrenta a dificultades técnicas y operativas que la ciencia no ha sido capaz de solucionar y frente a las cuales los gobiernos son totalmente ineficientes. Si se parte del hecho que hay una generación de basura diaria per cápita de 300 gramos (incluyendo en el cálculo de la media a una sexta parte de la población hambrienta) se producen en el mundo 1.8 millones de toneladas métricas de residuos, de las cuales son recuperables para que reingresen al sistema productivo poco menos del 15 por ciento. Ahí está de cuerpo presente uno de los más graves problemas de la actualidad: ¿qué hacer con semejante cifra diaria de residuos? Algunas propuestas se dirigen a disminuir el nivel de consumo, a evitar la producción de artículos que no se degradan, a reducir los envases y artículos desechables, y a aplicar altos impuestos para productos que requieran reposición como baterías, aceites y llantas.</p>
+        <div class="boton">
+         <a href="http://www.ecoportal.net/">Información mas a fondo...</a>
+        </div>
+  </center></div>
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <h4>Día de la Tierra</h4>
+      <img src="res/android/mdpi.png" width="56" height="46">
+      <h4>Mario Sinue Prudente Carrera</h4>
+    </div>
+   </div>
+  
+<div data-role="page" id="page3" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Cabios por hacer</h1>
+    </div>
+    <div data-role="main" class="ui-content" align="center">
+       <p><center>Es muy importante que todos tomemos conciencia de la importancia que tiene cuidar nuestro planeta y nuestros recursos.</center> </p>
+        <div id="izquierda">
+         <img src="imagenes/izquierda.png" width="40%" height="30%" alt="casa">
+         <h4>Utiliza Menos Agua</h4>
+         <p>Ahorra agua siempre que puedas.</p>
+         <p>Siempre que puedas, recolecta y reutiliza el agua.</p>
+         <p>Mantén cerrado el grifo mientras no necesites el agua que sale para no desperdiciar el agua.</p>
+         <p>Riega por la mañana o bien tarde para que el agua no se evapore enseguida.</p>
+         <h4>Ahorra Energía Eléctrica</h4>
+         <p>Apaga las luces.</p>
+         <p>Utiliza bombillas de bajo consumo.</p>
+         <p>Evita utilizar electrodomésticos y energía innecesariamente.</p>
+         <p>Usa menos el aire acodiciando, los calentadores eléctricos y la calefacción</p>
+         <p>Desconecta los aparatos eléctricos y los electrodomésticos.</p>
+         <p>Aprovechar la luz natural.</p>
+        </div>
+        <div id="derecha">
+         <img src="imagenes/derecha.png" width="40%" height="30%" alt="casa">
+         <h4>Contamina Menos</h4>
+         <p>Utiliza menos el coche.</p>
+         <p>Siempre que puedas, utiliza el transporte público.</p>
+         <p>Ahorra combustible.</p>
+         <p>Gasta menos gas.</p>
+         <h4>Genera menos desperdicios</h4>
+         <p>Utiliza pilas recargables.</p>
+         <p>Evita usar productos desechables.</p>
+         <p>Si tienes que comprar botellas desechables, compra botellas más grandes</p>
+         <p>Evitar utilizar bolsas de plástico cuando puedas utilizar otras.</p>
+        </div>
+        <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+         <h4>Día de la Tierra</h4>
+         <img src="res/android/mdpi.png" width="56" height="46">
+          <h4>Mario Sinue Prudente Carrera</h4>
+        </div>
+       </div>
+     </div>
+<div data-role="page" id="page5" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Mi Reflexión</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+    <i><p><center>Hasta que no empiece a importar o interesar  a todos lo que pase con nuestro mundo será la única forma en que las cosas cambiaran. Ya que las consecuencias de nuestros actos no los pagaremos nosotros  tan directamente sino a nuestros hijos o nietos.</center></p>
+       <p><center>El mundo  se está contaminado a un ritmo muy acelerado  y son pocas las personas que tratan de mejorar su medio ambiente pero la mayoría  se le hace fácil contaminar  ya sea por flojera o conveniencia pero esto tiene que acabar te invito a que pienses  en  el lugar donde vives,  a no tirar basura  inorgánica en la calle, carretera  o hasta en tu propia casa , a no gastar hojas ya que cada hoja representa un árbol caído , no contaminar el suelo y el aire con insecticidas o aerosoles.</center></p>
+       <p><center>Si tomas en cuentas estas recomendaciones  veras que las cosas darán un giro para bien.</center></p>
+       <p><center>¡Cuida nuestro planeta ya que no hay otro!</center></p></i>
+       <div><center>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/tierra13.png',1)"><img src="imagenes/descarga.png" alt="lool3" width="300" height="168" id="Image15"></a>
+       </center></div>
+  </div>
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <h4>Día de la Tierra</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+      <h4>Mario Sinue Prudente Carrera</h4>
+    </div>
+   </div>
+<div data-role="page" id="page6" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Los árboles para la Tierra</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+       <div id="izquierda">
+       <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/arbol1a.png',1)"><img src="imagenes/arbol1.png" alt="lol2" width="40%" height="30%" id="Image"></a></center></div>
+<p>El Día de la Tierra comenzó a celebrarse en los Estados Unidos de América en 1970 y ahora se dirige hacia su 50 aniversario. El Día está organizado por la Earth Day Network  , cuaya misión consiste en ampliar y diversificar el movimiento ambiental en todo el mundo y movilizarlo eficazmente para construir un medio ambiente saludable y sostenible, hacer frente al cambio climático, y proteger la Tierra para las generaciones futuras. El tema de este año tiene el objetivo de plantar 7,8 millones de árboles en los próximos cinco años.</p>
+        <h2>¿Por qué los árboles?</h2>
+        <h3>Los árboles ayudan a combatir el cambio climático</h3>
+        <p>Absorben el exceso perjudicial de CO2 de nuestra atmósfera. De hecho, en un solo año, media hectárea de árboles maduros absorbe la misma cantidad de CO2 producido por la conducción promedio de un automóvil, que es de unos 42 000 kilómetros.</p>
+       </div>
+       <div id="derecha"> 
+        <img src="imagenes/arbol2.png"width="40%" height="30%">
+        <h3>Los árboles nos ayudan a respirar aire limpio</h3>
+        <p>Los árboles absorben los olores y los gases contaminantes (óxidos de nitrógeno, amoníaco, dióxido de azufre y ozono) y las partículas de filtro del aire atrapándolos en sus hojas y su corteza.</p>
+        <h3>Los árboles nos ayudan a contrarrestar la pérdida de especies.</h3>
+        <p>Mediante la plantación de los árboles adecuados, podemos ayudar a contrarrestar la pérdida de especies, así como proporcionar una mayor conectividad del hábitat entre los fragmentos forestales regionales.</p>
+        <h3>Los árboles ayudan a las comunidades y sus medios de vida</h3>
+        <p>Los árboles ayudan a las comunidades a lograr la sostenibilidad económica y ambiental a largo plazo y proporcionar los alimentos, la energía y los ingresos.</p>
+       </div>
+      </div> 
+        <div class="boton">
+          <a href="https://www.sadm.gob.mx/PortalSadm/jsp/prensa.jsp?id=447">En que mas ayuda..</a>
+        </div>
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <h4>Día de la Tierra</h4>
+      <img src="res/android/mdpi.png" width="56" height="46">
+      <h4>Mario Sinue Prudente Carrera</h4>
+    </div>
+   </div>
+  </body>
+ </body>
+</html>
+
